@@ -171,6 +171,18 @@ img.logo {
   width: 6rem;
 }
 
+@media (max-width: 33rem) {
+  header {
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  img.logo {
+    margin: 0;
+    width: 5rem;
+  }
+}
+
 .menu {
   align-content: end;
   display: flex;
@@ -199,12 +211,6 @@ img.logo {
 section > div.scrim {
   margin-left: 0;
   max-width: 29rem;
-}
-
-@media (max-width: 28rem) {
-  section > div.scrim {
-    margin-left: auto;
-  }
 }
 
 i {
