@@ -31,6 +31,6 @@ function hide() {
   });
 }
 
-// main.addEventListener("scroll", show, false);
+main.addEventListener("scroll", show, false);
 
-// hide();
+hide();
