@@ -20,8 +20,6 @@ function show() {
   });
 }
 
-main.addEventListener("scroll", show, false);
-
 function hide() {
   elements.forEach(function (element, index) {
     if (index % 2 == 0) {
@@ -33,4 +31,6 @@ function hide() {
   });
 }
 
-hide();
+// main.addEventListener("scroll", show, false);
+
+// hide();
