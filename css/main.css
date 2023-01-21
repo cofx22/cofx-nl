@@ -171,25 +171,23 @@ img.logo {
   width: 6rem;
 }
 
-@media (max-width: 33rem) {
-  header {
-    gap: 1rem;
-    padding: 1.5rem 0;
-  }
-
-  img.logo {
-    margin: 0;
-    width: 5rem;
-  }
-}
-
 .menu {
   align-content: end;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: end;
   gap: 1rem;
   margin: 0 auto;
+}
+
+@media (max-width: 33rem) {
+  img.logo {
+    width: 5rem;
+  }
+
+  .menu {
+    max-width: 17rem;
+  }
 }
 
 .menu a {
