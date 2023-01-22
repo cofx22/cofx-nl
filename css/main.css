@@ -223,3 +223,7 @@ ul {
   list-style: disc;
   margin-bottom: 1rem;
 }
+
+b {
+  font-weight: bold;
+}
